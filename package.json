@@ -1,6 +1,6 @@
 {
   "name": "powerline-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OAuth provider for Powerline.io, a list management client for Twitter.",
   "main": "index.js",
   "engines": {
