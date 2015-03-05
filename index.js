@@ -10,7 +10,11 @@ var PORT = process.env.PORT,
 	CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 var app = express();
+app.use(express['static'](__dirname + '/public'));
 app.all('/oauthproxy', oauthshim.request);
+app.get('/', function (req, res) {
+	res.render('index');
+});
 
 var config = {};
 config[CLIENT_ID] = CLIENT_SECRET;
