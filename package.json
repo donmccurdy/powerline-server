@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "OAuth provider for Powerline.io, a list management client for Twitter.",
   "main": "index.js",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "dotenv": "^0.5.1",
     "express": "^4.12.2",
@@ -13,6 +16,7 @@
     "grunt-bump": "^0.3.0"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
