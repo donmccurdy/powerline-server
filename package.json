@@ -9,7 +9,7 @@
   "dependencies": {
     "dotenv": "^0.5.1",
     "express": "^4.12.2",
-    "oauth-shim": "^0.1.7"
+    "oauth-shim": "^0.2.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
